@@ -1,0 +1,10 @@
+<h1>WordGames#games</h1>
+<form action='/word_games/score' method='get'>
+  <input type="hidden" name="grid" value="<%= @grid %>">
+   <input type="hidden" name="time_start" value="<%= @time_start %>">
+  <input type="text" name="attempt">
+  <input type="submit" value="play" >
+
+</form>
+<%= @grid %>
+
